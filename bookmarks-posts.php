@@ -109,7 +109,6 @@ class Bookmarks{
 			
 	           if( $act=='delete' ){ 
 		         echo '<i class="fa fa-star-o fa-2x" aria-hidden="true"></i>Deleted from Bookmarks</a>';
-				 ?> <script> setTimeout(function(){location.reload()},1500); </script> <?php
 	            }
 	          wp_die();  
         } 
